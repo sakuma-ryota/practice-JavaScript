@@ -1,0 +1,6 @@
+	JSONを読み込む
+	------------------------------------------------*/
+	$.getJSON("example.json", data, function(json){ //指定のURLのJSONを読み込み、コールバック関数の引数としてJSONの値を渡します。getJSONの第２引数のdataは、サーバーにGETで渡す情報です。
+		var jsonData = json;
+	});
+});
