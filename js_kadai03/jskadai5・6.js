@@ -1,19 +1,19 @@
-(function($, window) {
+ (function($, window) {
     $(function() {
         // ここに処理を書きます
         $('#btn').on('click', function() {
-            // alert('検索した')
-            $('#zip1').jpostal({
-                postcode : [
-                    '#zip1',
-                    '#zip2'
-                ],
-                address : {
-                    '#pref'  : '%3',
-                    '#city'  : '%4',
-                    '#street'  : '%5'
-                }
-            });
+            alert('クリックした')
+            // $('#zip1').jpostal({
+            //     postcode : [
+            //         '#zip1',
+            //         '#zip2'
+            //     ],
+            //     address : {
+            //         '#pref'  : '%3',
+            //         '#city'  : '%4',
+            //         '#street'  : '%5'
+            //     }
+            // });
         });
     });
   })(jQuery, window);
