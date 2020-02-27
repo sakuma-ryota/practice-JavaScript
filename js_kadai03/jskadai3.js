@@ -5,8 +5,11 @@
       alert('click');
       var url = 'https://raw.githubusercontent.com/zengin-code/source-data/master/data/banks.json';
 
-      $.getJSON(url,get,{})
-        .done(function(data, status, xhr){
+      $.getJSON({
+        url: url,
+        type: 'get',
+        data: {}
+      }).done(function(data, status, xhr){
         alert('done');
        
         $('#result').val(result);
