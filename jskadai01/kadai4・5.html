@@ -8,14 +8,15 @@
 <body>
     <script>
         var animal = prompt('動物を入力してください');
-        var animals = ['パンダ', 'ライオン', 'キリン'];
+        var animals = {'パンダ':0, 'ライオン':1, 'キリン':2};
         var i = 0;
         if (animal == 'ライオン') {
-            alert(animal);
-        } else
-            while (i < animals.length) {
-                alert(animals[i]);
+            alert(animals['ライオン']);
+        } else {
+            while (i < Object.keys(animals.length)) {
+                alert(Object.keys(animals));
                 i++;
+            }
         }
     </script>
 </body>

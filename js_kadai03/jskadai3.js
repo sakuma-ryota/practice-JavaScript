@@ -6,16 +6,16 @@
       var url = 'https://raw.githubusercontent.com/zengin-code/source-data/master/data/banks.json';
 
       $.getJSON({
-        "url": "url",
-        "type": "get",
-        "data": "{}"
+        url: url,
+        type: "get",
+        data: {}
       }).done(function(data, status, xhr){
         alert('done');
-        var result = toString(data);
+        var result = JSON.stringify(data);
         $('#result').val(result);
       }).fail(function(data, status, err) {
         alert('fail');
-        var result = toString(data);
+        var result = JSON.stringify(data);
         $('#result').val(result);
       }).always(function() {
         alert('always');
