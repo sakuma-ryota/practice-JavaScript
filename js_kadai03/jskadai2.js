@@ -1,7 +1,7 @@
 (function($, window) {
     $(function() {
         // $('#login').on('click', function(e){
-        //     check_form(e);
+        //     check_form();
         // });
            
     });

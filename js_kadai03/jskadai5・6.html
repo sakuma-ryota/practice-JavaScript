@@ -4,10 +4,9 @@
 </head>
 <body>
   <h1>jQueryの郵便番号→住所変換プラグイン</h1>
-
   <dl>
     <dt>郵便番号</dt>
-    <dd><input type="text" id="zip1" maxlength="3">-<input type="text" id="zip2" maxlength="4"></dd>
+    <dd><input type="text" id="zip" maxlength="7"><input class="serch-btn" id="btn" type="button" value="該当地域を検索" style="margin-left: 10px;"></dd>
     <dt>都道府県</dt>
     <dd><input type="text" id="pref"></dd>
     <dt>市区町村</dt>
@@ -15,7 +14,6 @@
     <dt>町名等</dt>
     <dd><input type="text" id="street"></dd>
   </dl>
-  <input class="serch-btn" id="btn" type="button" value="検索">
 
   <!-- jQueryの読み込み -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

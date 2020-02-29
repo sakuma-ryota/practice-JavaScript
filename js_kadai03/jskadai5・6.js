@@ -2,8 +2,7 @@ $(window).ready( function() {
 	$('#btn').jpostal({
 		click : '#btn',
         postcode : [
-            '#zip1',
-            '#zip2'
+            '#zip',
         ],
         address : {
             '#pref'  : '%3',
