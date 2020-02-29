@@ -1,4 +1,4 @@
-(function($, window) {
+ (function($, window) {
     $(function() {
         $('#login').on('click', function(e) {
             var email = $('#email').val(),
